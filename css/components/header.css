@@ -1,0 +1,31 @@
+header {
+  background-image: url("http://www.fullstackbd.com/wp-content/uploads/2023/05/Untitled-design-5.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.header {
+  padding: 20px;
+}
+.header-item {
+  display: flex;
+  align-items: center;
+}
+.header-link {
+  margin: 0 1em;
+}
+.header-company {
+  color: var(--light);
+  font-size: 1.5em;
+}
+@media screen and (max-width: 536px) {
+  .header {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    background-size: inherit;
+  }
+}

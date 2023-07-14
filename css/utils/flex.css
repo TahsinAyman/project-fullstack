@@ -1,0 +1,10 @@
+.flex {
+    display: flex;
+    flex: 1;
+}
+.flex-start {
+    justify-content: left;
+}
+.flex-end {
+    justify-content: end;
+}
